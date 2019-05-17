@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yudha.splash_activity">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcherr"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_rounded"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DetailAngkut"></activity>
+        <activity android:name=".DetailSampoerna" />
+        <activity android:name=".DetailBatik" />
+        <activity android:name=".DetailKesenian" />
+        <activity android:name=".DetailKaa" />
+        <activity android:name=".DetailGeologi" />
+        <activity android:name=".DetailNasional" />
+        <activity android:name=".Dashboard_Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
